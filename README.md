@@ -4,4 +4,4 @@ Este proyecto se basa en automatizaciones del módulo myInfo sección Personal D
 
 Se utilizó como patron de diseño POM con Page Factory
 
-Trabajo realizado con Java 8 
+Trabajo realizado con Java 11.02 
