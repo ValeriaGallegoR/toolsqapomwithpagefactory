@@ -132,7 +132,7 @@ public class MyInfoPage extends CommonActionsOnPages {
     @CacheLookup
     private WebElement saveImageChange;
 
-    @FindBy(id = "personal_cmbNation")
+    @FindBy(xpath = "//*[@id=\"personal_cmbNation\"]/option[42]")
     @CacheLookup
     private WebElement nationalityButton;
 
@@ -249,7 +249,6 @@ public class MyInfoPage extends CommonActionsOnPages {
 
             scrollTo(nationalityButton);
             clickOn(nationalityButton);
-
 
             scrollTo(nickName);
             clear(nickName);
